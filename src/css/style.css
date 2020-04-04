@@ -50,12 +50,20 @@ p {
   color: var(--grigio);
 }
 
+#page {
+  margin-top: 450px;
+  position: absolute;
+  z-index: 2;
+}
+
 /* Header Showcase */
 
 #showcase {
   min-height: 450px;
   color: var(--bianco);
   text-align: center;
+  position: fixed;
+  width: 100%;
 }
 
 #showcase .bg-image {
@@ -86,12 +94,14 @@ p {
   background: #eaeaea;
   color: var(--grigio);
   padding-bottom: 2em;
+  -webkit-box-shadow: -7px -9px 17px -10px rgb(0, 159, 165);
 }
 
 /* Section B */
 
 #section-b {
   padding: 2em 1em 1em;
+  background: var(--grigio);
 }
 
 #section-b ul {
@@ -127,6 +137,10 @@ p {
 
 #section-d .box:first-child {
   background: #2690d4;
+}
+
+#section-d .box:nth-child(2) {
+  background: var(--grigio);
 }
 
 /* Footer */

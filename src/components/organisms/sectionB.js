@@ -6,7 +6,7 @@ export default function SectionB() {
   return (
     <section id="section-b" class="grid">
       <ul>
-        <li>
+        <li className="hidden">
           <Card
             source="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg"
             title="Web Development"

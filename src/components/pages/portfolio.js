@@ -11,13 +11,15 @@ export default function Portfolio() {
 
       <HeaderShowcase />
 
-      {/*Main Area*/}
+      <div id="page">
+        {/*Main Area*/}
 
-      <MainArea />
+        <MainArea />
 
-      {/*Footer*/}
+        {/*Footer*/}
 
-      <Footer />
+        <Footer />
+      </div>
     </div>
   );
 }
